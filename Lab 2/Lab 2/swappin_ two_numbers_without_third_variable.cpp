@@ -2,6 +2,7 @@
 int main()
 {
 	int a,b;
+	printf("Enter the values of the two numbers : " );
 	scanf("%d %d",&a,&b);
 	a=a+b;
 	b=a-b;
