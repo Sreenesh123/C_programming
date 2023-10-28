@@ -9,7 +9,7 @@ int main()
 	else if (u>=101 && u<=250){
 	printf("The bill is %f",u*3.5);}
 	else{
-	printf("The bill is %d",u*5);}
+	printf("The bill is %d rupees",u*5);}
 	
 	
 }
