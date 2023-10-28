@@ -19,7 +19,7 @@ int main()
 	else (c==3);{
 		h=(12*b)/100;
 	}
-	g=b+c+d+t+h;
+	g=b+d+t+h;
 	printf("The gross salary is : %f",g);
 	return 0;
 }
