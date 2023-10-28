@@ -3,6 +3,7 @@ int b=3.14;
 int main()
 {
 	int r,a;
+	printf("Enter the radius of the circle : " );
 	scanf("%d",&r);
 	int b=3.14;
 	a=b*r*r;
