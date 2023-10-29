@@ -6,7 +6,7 @@ int main()
 	printf("Enter any three numbers : ");
 	scanf("%f %f %f",&a,&b,&c);
 	if(a==b & b==c & c==a ){
-		printf("%d,"a);
+		printf("%f",a);
 	}
 	else if(a>b && a>c){
 			printf("%f",a);}
