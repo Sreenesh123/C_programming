@@ -12,7 +12,7 @@ for(i=0;i<2;i++){
 	} 
 }
 for(i=0;i<2;i++){
-	printf("Enter the value of &d row the matrix B : \n", i );
+	printf("Enter the value of %d row the matrix B : \n", i );
 	for (j=0;j<2;j++){
 	scanf("%d",&n);
 	b[i][j]=n;
@@ -25,6 +25,7 @@ for (i=0;i<2;i++){
 			c[i][j]+=a[i][k]*b[k][j];
 		
 	}}}
+	printf("the required matrix is : ");
 	
 for (i=0;i<2;i++){
 	for (j=0;j<2;j++){
