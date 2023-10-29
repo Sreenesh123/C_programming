@@ -5,7 +5,7 @@ int main()
 	float a,b,c;
 	printf("Enter any three numbers : ");
 	scanf("%f %f %f",&a,&b,&c);
-	if(a==b & b==c & c==a ){
+	if(a==b && b==c && c==a ){
 		printf("%f",a);
 	}
 	else if(a>b && a>c){
