@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
 	int n;
-	printf("enter the number of elements in the array : ");
+	printf("enter even number of elements in the array : ");
 	scanf("%d",&n);
 	int a[n],i,j,t;
 	printf("enter the elements of the array : \n");
