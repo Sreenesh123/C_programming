@@ -8,7 +8,7 @@ int main(){
 	for (i=0;i<N;i++){
 		printf("\na[%d] : ",i);
 		scanf("%d",&a[i]);}
-	printf("the first duplicate number is : ");
+	printf("the first non repeating number is : ");
 	for (i=0;i<N;i++){
 		int c=0;
 		for (j=0;j<N;j++){
