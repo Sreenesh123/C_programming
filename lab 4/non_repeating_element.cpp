@@ -1,31 +1,26 @@
 #include<stdio.h>
 int main(){
-	int n,i,t,c,k,j;
-	printf("Enter the number of elements in the array  : ");
-	scanf("%d",&n);
-	int a[n];
-	for (i=0;i<n;i++){
-		printf("a[%d] = ",i);
-		scanf("%d",&a[i]);
-	}
-	printf("The array is : ");
-	printf("[");
-	for (i=0;i<n;i++){
-		printf("%d ",a[i]);}
-	printf("]");
-	
-	for (i=0;i<n;i++){
-		c=0;
-		for (j=i+1;j<n;j++){
-			if (a[i]==a[j]){
-				c=1;
+	int i,j,k,n,x,t,N;
+	printf("Enter the value of N : ");
+	scanf("%d",&N);
+	int a[N];
+	printf("Enter the elements in the array : ");
+	for (i=0;i<N;i++){
+		printf("\na[%d] : ",i);
+		scanf("%d",&a[i]);}
+	printf("the first duplicate number is : ");
+	for (i=0;i<N;i++){
+		int c=0;
+		for (j=0;j<N;j++){
+			if (a[i]==a[j]&& i!=j){
+				c++;}}
+				
+			if(i>0&&c==0)	{
+			printf("%d ",a[i]);
+					break;}
 			}
-		
-		}
-		if (c==0){
-			printf("\nthe first non repeatingss element is %d",a[i]);
-			break;
-		
-		}
 			
-	}return 0;}
+	
+	return 0;
+		
+	}
